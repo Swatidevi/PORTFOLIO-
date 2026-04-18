@@ -119,7 +119,8 @@
 				// initialize isotope
 				$container.isotope({
 				  itemSelector : '.hentry',
-				  layoutMode : 'fitRows'
+				  layoutMode : 'fitRows',
+				  filter: '.project'
 				  //animationEngine : animEngine
 				});
 				
